@@ -13,7 +13,7 @@ export const ElemListContact = ({ name, number, id, func }) => (
 );
 ElemListContact.propTypes = {
   name: PropTypes.string.isRequired,
-  number: PropTypes.number.isRequired,
+  number: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
   func: PropTypes.func.isRequired,
 };
